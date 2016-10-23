@@ -1,0 +1,1274 @@
+@charset "UTF-8";
+@media screen and (max-width: 1080px) {
+  html {
+    font-size: 100px; } }
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 38.33333px; } }
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 38.14815px; } }
+
+@media screen and (max-width: 380px) {
+  html {
+    font-size: 35.18519px; } }
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 34.72222px; } }
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 33.33333px; } }
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 29.62963px; } }
+
+@font-face {
+  font-family: 'icon-font';
+  src: url("../iconfont.woff"); }
+
+.icon-font {
+  font-family: 'icon-font' !important; }
+
+.icon-fanhui:before {
+  content: "\e615"; }
+
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-famliy: '微软雅黑';
+  overflow: hidden;
+  overflow-y: scroll; }
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+.header {
+  width: 100%;
+  height: 1.3rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), transparent);
+  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  transition: background 0.8s ease; }
+  .header.headercolor {
+    background: #f32d2d; }
+  .header .headerleft {
+    width: 0.8rem;
+    height: 0.7rem;
+    position: absolute;
+    left: 0.43rem;
+    top: 0.29rem;
+    background: url("../img/sy.png") no-repeat center center;
+    background-size: cover; }
+  .header .headermiddle {
+    width: 8.32rem;
+    height: 0.94rem;
+    background: #fff;
+    position: absolute;
+    top: 0.14rem;
+    left: 2rem; }
+    .header .headermiddle input {
+      width: 7rem;
+      height: 0.94rem;
+      border: none;
+      font-size: 0.38rem;
+      color: #999999;
+      line-height: 0.94rem;
+      position: absolute;
+      top: 0rem;
+      left: 0.27rem;
+      outline: none; }
+    .header .headermiddle .ss {
+      width: 0.63rem;
+      height: 0.63rem;
+      position: absolute;
+      top: 0.18rem;
+      right: 0.41rem;
+      background: url("../img/ss.png") no-repeat center center;
+      background-size: cover; }
+
+#banner {
+  height: 5.2rem;
+  background: #ccc; }
+  #banner .swiper-slide {
+    display: block; }
+    #banner .swiper-slide img {
+      width: 100%;
+      height: auto; }
+
+.fenlei {
+  height: 4.38rem;
+  border-bottom: 3px solid #f0f0f0;
+  background: #fff; }
+  .fenlei .fenleibox {
+    height: 3.55rem;
+    padding: 0.28rem 0.4rem 0.21rem 0.4rem;
+    position: relative; }
+    .fenlei .fenleibox .fentop {
+      width: 100%;
+      height: 1.61rem;
+      display: inline-block;
+      text-align: justify;
+      padding-top: 2px; }
+      .fenlei .fenleibox .fentop::after {
+        content: '';
+        width: 100%;
+        /*height:2px;
+        background:orange;*/
+        display: inline-block; }
+      .fenlei .fenleibox .fentop .ftbox {
+        display: inline-block;
+        width: 1.4rem;
+        height: 100%;
+        position: relative; }
+        .fenlei .fenleibox .fentop .ftbox .f1 {
+          width: 1.04rem;
+          height: 1.04rem;
+          position: absolute;
+          left: 0.17rem;
+          background: url("../img/f1.webp") no-repeat center center;
+          background-size: 1.04rem 1.04rem; }
+        .fenlei .fenleibox .fentop .ftbox .f2 {
+          width: 1.04rem;
+          height: 1.04rem;
+          position: absolute;
+          left: 0.17rem;
+          background: url("../img/f2.webp") no-repeat center center;
+          background-size: 1.04rem 1.04rem; }
+        .fenlei .fenleibox .fentop .ftbox .f3 {
+          width: 1.04rem;
+          height: 1.04rem;
+          position: absolute;
+          left: 0.17rem;
+          background: url("../img/f3.webp") no-repeat center center;
+          background-size: 1.04rem 1.04rem; }
+        .fenlei .fenleibox .fentop .ftbox .f4 {
+          width: 1.04rem;
+          height: 1.04rem;
+          position: absolute;
+          left: 0.17rem;
+          background: url("../img/f4.webp") no-repeat center center;
+          background-size: 1.04rem 1.04rem; }
+        .fenlei .fenleibox .fentop .ftbox .f5 {
+          width: 1.04rem;
+          height: 1.04rem;
+          position: absolute;
+          left: 0.17rem;
+          background: url("../img/f5.webp") no-repeat center center;
+          background-size: 1.04rem 1.04rem; }
+        .fenlei .fenleibox .fentop .ftbox .f6 {
+          width: 1.04rem;
+          height: 1.04rem;
+          position: absolute;
+          left: 0.17rem;
+          background: url("../img/f6.webp") no-repeat center center;
+          background-size: 1.04rem 1.04rem; }
+        .fenlei .fenleibox .fentop .ftbox .f7 {
+          width: 1.04rem;
+          height: 1.04rem;
+          position: absolute;
+          left: 0.17rem;
+          background: url("../img/f7.webp") no-repeat center center;
+          background-size: 1.04rem 1.04rem; }
+        .fenlei .fenleibox .fentop .ftbox .f8 {
+          width: 1.04rem;
+          height: 1.04rem;
+          position: absolute;
+          left: 0.17rem;
+          background: url("../img/f8.webp") no-repeat center center;
+          background-size: 1.04rem 1.04rem; }
+        .fenlei .fenleibox .fentop .ftbox .f9 {
+          width: 1.04rem;
+          height: 1.04rem;
+          position: absolute;
+          left: 0.17rem;
+          background: url("../img/f9.webp") no-repeat center center;
+          background-size: 1.04rem 1.04rem; }
+        .fenlei .fenleibox .fentop .ftbox .f10 {
+          width: 1.04rem;
+          height: 1.04rem;
+          position: absolute;
+          left: 0.17rem;
+          background: url("../img/f10.webp") no-repeat center center;
+          background-size: 1.04rem 1.04rem; }
+        .fenlei .fenleibox .fentop .ftbox span {
+          width: 1.4rem;
+          height: 0.33rem;
+          color: #000;
+          font-size: 0.33rem;
+          position: absolute;
+          bottom: 0;
+          line-height: 0.33rem;
+          text-align: center; }
+
+.lunbox {
+  height: 1.76rem;
+  background: #fff; }
+  .lunbox .luninner {
+    height: 1.16rem;
+    padding-top: 0.32rem;
+    padding-bottom: 0.29rem;
+    position: relative; }
+    .lunbox .luninner .lunleft {
+      width: 1.87rem;
+      height: 100%;
+      border-right: 3px solid #e7e7e7;
+      background: url("../img/l2.webp") no-repeat center center;
+      background-size: contain; }
+    .lunbox .luninner img {
+      width: 0.54rem;
+      height: 0.54rem;
+      position: absolute;
+      top: 0.66rem;
+      left: 2.29rem; }
+    .lunbox .luninner .lunright {
+      width: 7.86rem;
+      height: 1.16rem;
+      background: #fff;
+      position: absolute;
+      top: 0.32rem;
+      left: 2.9rem; }
+      .lunbox .luninner .lunright .span1 {
+        display: block;
+        width: 100%;
+        height: 0.58rem;
+        font-size: 0.32rem;
+        line-height: 0.58rem;
+        color: #000; }
+      .lunbox .luninner .lunright .span2 {
+        display: block;
+        width: 100%;
+        height: 0.58rem;
+        font-size: 0.32rem;
+        line-height: 0.58rem;
+        color: #ff2f2f; }
+      .lunbox .luninner .lunright #lunbox {
+        width: 100%;
+        height: 100%; }
+        .lunbox .luninner .lunright #lunbox .swiper-slide {
+          display: block;
+          width: 100%;
+          height: 100%; }
+
+#sanbox {
+  width: auto;
+  height: 3.08rem;
+  position: relative;
+  overflow: hidden; }
+  #sanbox .sbox1, #sanbox .sbox2, #sanbox .sbox3 {
+    width: 4.97rem;
+    height: 3rem;
+    background: #f0f0f0;
+    padding: 0.05rem;
+    position: absolute;
+    top: 0; }
+    #sanbox .sbox1 img, #sanbox .sbox2 img, #sanbox .sbox3 img {
+      width: 4.97rem;
+      height: 3rem; }
+  #sanbox .sbox1 {
+    left: 0; }
+  #sanbox .sbox2 {
+    left: 5.07rem; }
+  #sanbox .sbox3 {
+    left: 10.14rem; }
+
+.reqiang {
+  height: 8.66rem;
+  background: #f0f0f0; }
+  .reqiang .rqtop {
+    width: 3.69rem;
+    height: 0.45rem;
+    padding-top: 0.44rem;
+    padding-left: 3.56rem;
+    padding-right: 3.56rem;
+    background: #f0f0f0;
+    position: relative; }
+    .reqiang .rqtop .xianleft, .reqiang .rqtop .xianright {
+      width: 0.98rem;
+      height: 0.03rem;
+      position: absolute;
+      background: #f6b7b7; }
+    .reqiang .rqtop .xianleft {
+      top: 0.56rem;
+      left: 3.56rem; }
+    .reqiang .rqtop .xianright {
+      top: 0.56rem;
+      right: 3.56rem; }
+    .reqiang .rqtop .biaoti {
+      width: 1.7rem;
+      height: 0.45rem;
+      position: absolute;
+      top: 0.34rem;
+      left: 4.53rem; }
+      .reqiang .rqtop .biaoti img {
+        width: 0.45rem;
+        height: 0.45rem;
+        position: absolute;
+        top: 0;
+        left: 0.15rem; }
+      .reqiang .rqtop .biaoti span {
+        display: block;
+        width: 0.8rem;
+        height: 0.45rem;
+        position: absolute;
+        top: 0;
+        right: 0.14rem;
+        color: #ff2e2e;
+        font-size: 0.36rem;
+        line-height: 0.45rem;
+        text-align: center; }
+  .reqiang .rqbottom {
+    height: 7.65rem;
+    background: #f0f0f0; }
+    .reqiang .rqbottom .rqbox {
+      width: 2.67rem;
+      height: 3.82rem;
+      background: #fff;
+      border-bottom: 0.01rem solid #f0f0f0;
+      border-right: 1px solid #f0f0f0;
+      position: relative;
+      float: left; }
+      .reqiang .rqbottom .rqbox .spantop {
+        display: block;
+        width: 2.65rem;
+        height: 0.8rem;
+        font-size: 0.34rem;
+        color: #000;
+        line-height: 0.8rem;
+        text-align: center; }
+      .reqiang .rqbottom .rqbox img {
+        width: 2.17rem;
+        height: auto;
+        position: absolute;
+        top: 0.8rem;
+        left: 0.25rem; }
+      .reqiang .rqbottom .rqbox .sale1 {
+        width: 0.75rem;
+        height: 0.24rem;
+        position: absolute;
+        bottom: 0.27rem;
+        left: 0.57rem;
+        color: #ff2e2e;
+        font-size: 0.24rem; }
+      .reqiang .rqbottom .rqbox .sale2 {
+        width: 0.82rem;
+        height: 0.24rem;
+        color: #9b9b9b;
+        font-size: 0.24rem;
+        position: absolute;
+        bottom: 0.27rem;
+        left: 1.4rem;
+        text-decoration: line-through; }
+
+.tm {
+  height: 4.14rem;
+  background: #f0f0f0; }
+  .tm .tmtop {
+    width: 3.69rem;
+    height: 0.45rem;
+    padding-top: 0.44rem;
+    padding-left: 3.56rem;
+    padding-right: 3.56rem;
+    background: #f0f0f0;
+    position: relative; }
+    .tm .tmtop .xianleft, .tm .tmtop .xianright {
+      width: 0.98rem;
+      height: 0.03rem;
+      position: absolute;
+      background: #ffcc99; }
+    .tm .tmtop .xianleft {
+      top: 0.56rem;
+      left: 3.12rem; }
+    .tm .tmtop .xianright {
+      top: 0.56rem;
+      right: 3.12rem; }
+    .tm .tmtop .biaoti {
+      width: 2.52rem;
+      height: 0.45rem;
+      position: absolute;
+      top: 0.34rem;
+      left: 4.15rem; }
+      .tm .tmtop .biaoti img {
+        width: 0.45rem;
+        height: 0.45rem;
+        position: absolute;
+        top: 0;
+        left: 0.15rem; }
+      .tm .tmtop .biaoti span {
+        display: block;
+        width: 1.58rem;
+        height: 0.45rem;
+        position: absolute;
+        top: 0;
+        right: 0.14rem;
+        color: #ff8000;
+        font-size: 0.36rem;
+        line-height: 0.45rem;
+        text-align: center; }
+  .tm .tmbox {
+    width: 5.37rem;
+    height: 3.18rem;
+    float: left;
+    border-right: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0; }
+    .tm .tmbox img {
+      width: 5.37rem;
+      height: auto; }
+
+.ppzx {
+  height: 5.98rem; }
+  .ppzx .ppzxtop {
+    width: 3.69rem;
+    height: 0.45rem;
+    padding-top: 0.44rem;
+    padding-left: 3.56rem;
+    padding-right: 3.56rem;
+    background: #f0f0f0;
+    position: relative; }
+    .ppzx .ppzxtop .xianleft, .ppzx .ppzxtop .xianright {
+      width: 0.98rem;
+      height: 0.03rem;
+      position: absolute;
+      background: #b4e1dc; }
+    .ppzx .ppzxtop .xianleft {
+      top: 0.56rem;
+      left: 3.12rem; }
+    .ppzx .ppzxtop .xianright {
+      top: 0.56rem;
+      right: 3.12rem; }
+    .ppzx .ppzxtop .biaoti {
+      width: 2.52rem;
+      height: 0.45rem;
+      position: absolute;
+      top: 0.34rem;
+      left: 4.15rem; }
+      .ppzx .ppzxtop .biaoti img {
+        width: 0.45rem;
+        height: 0.45rem;
+        position: absolute;
+        top: 0;
+        left: 0.15rem; }
+      .ppzx .ppzxtop .biaoti span {
+        display: block;
+        width: 1.58rem;
+        height: 0.45rem;
+        position: absolute;
+        top: 0;
+        right: 0.14rem;
+        color: #009f8a;
+        font-size: 0.36rem;
+        line-height: 0.45rem;
+        text-align: center; }
+  .ppzx .ppzxbottom {
+    height: 5.06rem; }
+    .ppzx .ppzxbottom .ppzxbox {
+      display: block;
+      width: 3.57rem;
+      height: 5rem;
+      border-right: 1px solid #f0f0f0;
+      float: left; }
+      .ppzx .ppzxbottom .ppzxbox img {
+        display: block;
+        width: 3.567rem;
+        height: 5.06rem; }
+
+.nanjiren {
+  display: block;
+  height: 2.67rem;
+  background: url("../img/njr.webp") no-repeat center center;
+  background-size: contain; }
+
+.bjsh {
+  height: 5.11rem; }
+  .bjsh .bjshtop {
+    width: 3.69rem;
+    height: 0.45rem;
+    padding-top: 0.44rem;
+    padding-left: 3.56rem;
+    padding-right: 3.56rem;
+    background: #f0f0f0;
+    position: relative; }
+    .bjsh .bjshtop .xianleft, .bjsh .bjshtop .xianright {
+      width: 0.98rem;
+      height: 0.03rem;
+      position: absolute;
+      background: #bbd79f; }
+    .bjsh .bjshtop .xianleft {
+      top: 0.56rem;
+      left: 3.12rem; }
+    .bjsh .bjshtop .xianright {
+      top: 0.56rem;
+      right: 3.12rem; }
+    .bjsh .bjshtop .biaoti {
+      width: 2.52rem;
+      height: 0.45rem;
+      position: absolute;
+      top: 0.34rem;
+      left: 4.15rem; }
+      .bjsh .bjshtop .biaoti img {
+        width: 0.45rem;
+        height: 0.45rem;
+        position: absolute;
+        top: 0;
+        left: 0.15rem; }
+      .bjsh .bjshtop .biaoti span {
+        display: block;
+        width: 1.58rem;
+        height: 0.45rem;
+        position: absolute;
+        top: 0;
+        right: 0.14rem;
+        color: #43af00;
+        font-size: 0.36rem;
+        line-height: 0.45rem;
+        text-align: center; }
+  .bjsh .bjshbottom {
+    height: 4.25rem;
+    background: #f0f0f0;
+    position: relative; }
+    .bjsh .bjshbottom .bjshleft {
+      display: block;
+      width: 4.75rem;
+      height: 4.25rem;
+      background: url("../img/bj1.webp") no-repeat center center;
+      background-size: contain; }
+    .bjsh .bjshbottom .bjshright {
+      width: 6.2rem;
+      height: 4.25rem;
+      border-left: 2px solid #f0f0f0;
+      background: red;
+      position: absolute;
+      top: 0;
+      left: 4.5rem; }
+      .bjsh .bjshbottom .bjshright .bshang {
+        display: block;
+        width: 6.2rem;
+        height: 2.09rem;
+        background: url("../img/bj2.webp") no-repeat center center;
+        background-size: cover;
+        border-top: 1px solid #f0f0f0; }
+      .bjsh .bjshbottom .bjshright .bxia {
+        display: block;
+        width: 6.2rem;
+        height: 2.09rem;
+        background: url("../img/bj3.webp") no-repeat center center;
+        background-size: cover;
+        border-top: 2px solid #f0f0f0; }
+
+.gjhg {
+  height: 5.24rem; }
+  .gjhg .gjhgtop {
+    width: 3.69rem;
+    height: 0.45rem;
+    padding-top: 0.44rem;
+    padding-left: 3.56rem;
+    padding-right: 3.56rem;
+    background: #f0f0f0;
+    position: relative; }
+    .gjhg .gjhgtop .xianleft, .gjhg .gjhgtop .xianright {
+      width: 0.98rem;
+      height: 0.03rem;
+      position: absolute;
+      background: #cab9d9; }
+    .gjhg .gjhgtop .xianleft {
+      top: 0.56rem;
+      left: 3.12rem; }
+    .gjhg .gjhgtop .xianright {
+      top: 0.56rem;
+      right: 3.12rem; }
+    .gjhg .gjhgtop .biaoti {
+      width: 2.52rem;
+      height: 0.45rem;
+      position: absolute;
+      top: 0.34rem;
+      left: 4.15rem; }
+      .gjhg .gjhgtop .biaoti img {
+        width: 0.45rem;
+        height: 0.45rem;
+        position: absolute;
+        top: 0;
+        left: 0.15rem; }
+      .gjhg .gjhgtop .biaoti span {
+        display: block;
+        width: 1.6rem;
+        height: 0.45rem;
+        position: absolute;
+        top: 0;
+        right: 0.14rem;
+        color: #8828dd;
+        font-size: 0.36rem;
+        line-height: 0.45rem;
+        text-align: center; }
+  .gjhg .gjhgbottom {
+    height: 4.25rem; }
+    .gjhg .gjhgbottom .gjhgbox {
+      display: block;
+      width: 3.57rem;
+      height: 4.25rem;
+      border-right: 1px solid #f0f0f0;
+      float: left; }
+      .gjhg .gjhgbottom .gjhgbox img {
+        display: block;
+        width: 3.57rem;
+        height: 4.25rem; }
+
+.jxsc {
+  height: 7.9rem; }
+  .jxsc .jxsctop {
+    width: 3.69rem;
+    height: 0.45rem;
+    padding-top: 0.44rem;
+    padding-left: 3.56rem;
+    padding-right: 3.56rem;
+    background: #f0f0f0;
+    position: relative; }
+    .jxsc .jxsctop .xianleft, .jxsc .jxsctop .xianright {
+      width: 0.98rem;
+      height: 0.03rem;
+      position: absolute;
+      background: #e8bad5; }
+    .jxsc .jxsctop .xianleft {
+      top: 0.56rem;
+      left: 3.12rem; }
+    .jxsc .jxsctop .xianright {
+      top: 0.56rem;
+      right: 3.12rem; }
+    .jxsc .jxsctop .biaoti {
+      width: 2.52rem;
+      height: 0.45rem;
+      position: absolute;
+      top: 0.34rem;
+      left: 4.15rem; }
+      .jxsc .jxsctop .biaoti img {
+        width: 0.45rem;
+        height: 0.45rem;
+        position: absolute;
+        top: 0;
+        left: 0.15rem; }
+      .jxsc .jxsctop .biaoti span {
+        display: block;
+        width: 1.6rem;
+        height: 0.45rem;
+        position: absolute;
+        top: 0;
+        right: 0.14rem;
+        color: #e24aa5;
+        font-size: 0.36rem;
+        line-height: 0.45rem;
+        text-align: center; }
+  .jxsc .jxscbottom {
+    height: 6.92rem;
+    background: #f0f0f0; }
+    .jxsc .jxscbottom .jxscbox {
+      display: block;
+      width: 2.67rem;
+      height: 3.74rem;
+      border-right: 1px solid #f0f0f0;
+      border-bottom: 1px solid #f0f0f0;
+      float: left; }
+      .jxsc .jxscbottom .jxscbox img {
+        display: block;
+        width: 2.68rem;
+        height: 3.74rem; }
+    .jxsc .jxscbottom .jxscbox12 {
+      display: block;
+      width: 5.37rem;
+      height: 3.12rem;
+      float: left;
+      border-right: 1px solid #f0f0f0; }
+      .jxsc .jxscbottom .jxscbox12 img {
+        display: block;
+        width: 5.37rem;
+        height: 3.74rem; }
+    .jxsc .jxscbottom .jxscbox1 {
+      display: block;
+      width: 5.4rem;
+      height: 3.12rem;
+      float: left; }
+      .jxsc .jxscbottom .jxscbox1 img {
+        display: block;
+        width: 5.4rem;
+        height: 3.74rem; }
+
+.ash {
+  height: 5.02rem; }
+  .ash .ashtop {
+    width: 4.2rem;
+    height: 0.45rem;
+    padding-top: 0.44rem;
+    padding-left: 3.38rem;
+    padding-right: 3.2rem;
+    background: #f0f0f0;
+    position: relative; }
+    .ash .ashtop .xianleft, .ash .ashtop .xianright {
+      width: 0.98rem;
+      height: 0.03rem;
+      position: absolute;
+      background: #bedbec; }
+    .ash .ashtop .xianleft {
+      top: 0.56rem;
+      left: 3.12rem; }
+    .ash .ashtop .xianright {
+      top: 0.56rem;
+      right: 3.12rem; }
+    .ash .ashtop .biaoti {
+      width: 2.11rem;
+      height: 0.45rem;
+      position: absolute;
+      top: 0.34rem;
+      left: 4.15rem; }
+      .ash .ashtop .biaoti img {
+        width: 0.45rem;
+        height: 0.45rem;
+        position: absolute;
+        top: 0;
+        left: 0.15rem; }
+      .ash .ashtop .biaoti span {
+        display: block;
+        width: 1.2rem;
+        height: 0.45rem;
+        position: absolute;
+        top: 0;
+        right: 0.1rem;
+        color: #17b7ff;
+        font-size: 0.36rem;
+        line-height: 0.45rem;
+        text-align: center; }
+  .ash .ashbottom {
+    height: 4.02rem; }
+    .ash .ashbottom .ashbox {
+      display: block;
+      width: 2.66rem;
+      height: 4.02rem;
+      border-right: 1px solid #f0f0f0;
+      float: left; }
+      .ash .ashbottom .ashbox img {
+        display: block;
+        width: 2.66rem;
+        height: 4.02rem; }
+
+.clkw {
+  height: 5.34rem; }
+  .clkw .clkwtop {
+    width: 4.2rem;
+    height: 0.45rem;
+    padding-top: 0.44rem;
+    padding-left: 3.38rem;
+    padding-right: 3.2rem;
+    background: #f0f0f0;
+    position: relative; }
+    .clkw .clkwtop .xianleft, .clkw .clkwtop .xianright {
+      width: 0.98rem;
+      height: 0.03rem;
+      position: absolute;
+      background: #becfec; }
+    .clkw .clkwtop .xianleft {
+      top: 0.56rem;
+      left: 3.12rem; }
+    .clkw .clkwtop .xianright {
+      top: 0.56rem;
+      right: 3.12rem; }
+    .clkw .clkwtop .biaoti {
+      width: 2.11rem;
+      height: 0.45rem;
+      position: absolute;
+      top: 0.34rem;
+      left: 4.15rem; }
+      .clkw .clkwtop .biaoti img {
+        width: 0.45rem;
+        height: 0.45rem;
+        position: absolute;
+        top: 0;
+        left: 0.15rem; }
+      .clkw .clkwtop .biaoti span {
+        display: block;
+        width: 1.6rem;
+        height: 0.45rem;
+        position: absolute;
+        top: 0;
+        left: 0.8rem;
+        color: #4a84e2;
+        font-size: 0.36rem;
+        line-height: 0.45rem;
+        text-align: center; }
+  .clkw .clkwbottom {
+    height: 4.4rem; }
+    .clkw .clkwbottom .clkwbox {
+      display: block;
+      width: 3.57rem;
+      height: 4.4rem;
+      border-right: 1px solid #f0f0f0;
+      float: left; }
+      .clkw .clkwbottom .clkwbox.last {
+        border: none; }
+      .clkw .clkwbottom .clkwbox img {
+        display: block;
+        width: 3.57rem;
+        height: 4.4rem; }
+
+.rmhy {
+  height: 11.23rem;
+  background: #f0f0f0; }
+  .rmhy .rmhytop {
+    width: 4.2rem;
+    height: 0.45rem;
+    padding-top: 0.44rem;
+    padding-left: 3.38rem;
+    padding-right: 3.2rem;
+    background: #f0f0f0;
+    position: relative; }
+    .rmhy .rmhytop .xianleft, .rmhy .rmhytop .xianright {
+      width: 0.98rem;
+      height: 0.03rem;
+      position: absolute;
+      background: #becfec; }
+    .rmhy .rmhytop .xianleft {
+      top: 0.56rem;
+      left: 3.12rem; }
+    .rmhy .rmhytop .xianright {
+      top: 0.56rem;
+      right: 3.12rem; }
+    .rmhy .rmhytop .biaoti {
+      width: 2.11rem;
+      height: 0.45rem;
+      position: absolute;
+      top: 0.34rem;
+      left: 4.15rem; }
+      .rmhy .rmhytop .biaoti img {
+        width: 0.45rem;
+        height: 0.45rem;
+        position: absolute;
+        top: 0;
+        left: 0.15rem; }
+      .rmhy .rmhytop .biaoti span {
+        display: block;
+        width: 1.6rem;
+        height: 0.45rem;
+        position: absolute;
+        top: 0;
+        left: 0.8rem;
+        color: #4a84e2;
+        font-size: 0.36rem;
+        line-height: 0.45rem;
+        text-align: center; }
+  .rmhy .rmhymiddle {
+    height: 2.93rem;
+    background: #fff; }
+    .rmhy .rmhymiddle .rmhymbox {
+      display: block;
+      width: 5.37rem;
+      height: 100%;
+      border-right: 1px solid #f0f0f0;
+      border-bottom: 1px solid #f0f0f0;
+      position: relative;
+      float: left;
+      background: #fff; }
+      .rmhy .rmhymiddle .rmhymbox .rmspan1 {
+        display: block;
+        width: 2.2rem;
+        height: 0.5rem;
+        position: absolute;
+        top: 0.4rem;
+        left: 0.3rem;
+        color: #000;
+        font-size: 0.32rem;
+        line-height: 0.5rem;
+        text-align: center; }
+      .rmhy .rmhymiddle .rmhymbox .rmspan2 {
+        display: block;
+        width: 2.2rem;
+        height: 0.5rem;
+        position: absolute;
+        top: 0.98rem;
+        left: 0.3rem;
+        color: #afafaf;
+        font-size: 0.32rem;
+        line-height: 0.5rem;
+        text-align: center; }
+      .rmhy .rmhymiddle .rmhymbox .mai {
+        width: 2.8rem;
+        height: auto;
+        position: absolute;
+        top: 0.1rem;
+        right: 0; }
+      .rmhy .rmhymiddle .rmhymbox .hotbox {
+        width: 1.04rem;
+        height: 1.04rem;
+        position: absolute;
+        left: 0.81rem;
+        top: 1.53rem; }
+  .rmhy .rmhybottom {
+    height: 7.32rem;
+    background: #f0f0f0; }
+    .rmhy .rmhybottom .rmhybox {
+      display: block;
+      width: 2.67rem;
+      height: 3.65rem;
+      background: #fff;
+      position: relative;
+      float: left;
+      border-bottom: 1px solid #f0f0f0;
+      border-right: 1px solid #f0f0f0; }
+      .rmhy .rmhybottom .rmhybox .span1 {
+        display: block;
+        height: 0.88rem;
+        font-size: 0.34rem;
+        line-height: 0.88rem;
+        text-align: center;
+        color: #000; }
+      .rmhy .rmhybottom .rmhybox .span2 {
+        display: block;
+        height: 0.32rem;
+        font-size: 0.32rem;
+        color: #9b9b9b;
+        line-height: 0.32rem;
+        text-align: center; }
+      .rmhy .rmhybottom .rmhybox img {
+        width: 2.1rem;
+        height: 2.17rem;
+        position: absolute;
+        top: 1.36rem;
+        left: 0.27rem; }
+
+.ppqj {
+  height: 13.93rem;
+  background: #f0f0f0; }
+  .ppqj .ppqjtop {
+    width: 4.2rem;
+    height: 0.45rem;
+    padding-top: 0.44rem;
+    padding-left: 3.38rem;
+    padding-right: 3.2rem;
+    background: #f0f0f0;
+    position: relative; }
+    .ppqj .ppqjtop .xianleft, .ppqj .ppqjtop .xianright {
+      width: 0.98rem;
+      height: 0.03rem;
+      position: absolute;
+      background: #000; }
+    .ppqj .ppqjtop .xianleft {
+      top: 0.56rem;
+      left: 3.12rem; }
+    .ppqj .ppqjtop .xianright {
+      top: 0.56rem;
+      right: 3.12rem; }
+    .ppqj .ppqjtop .biaoti {
+      width: 2.11rem;
+      height: 0.45rem;
+      position: absolute;
+      top: 0.34rem;
+      left: 4.15rem; }
+      .ppqj .ppqjtop .biaoti img {
+        width: 0.45rem;
+        height: 0.45rem;
+        position: absolute;
+        top: 0;
+        left: 0.15rem; }
+      .ppqj .ppqjtop .biaoti span {
+        display: block;
+        width: 1.6rem;
+        height: 0.45rem;
+        position: absolute;
+        top: 0;
+        left: 0.8rem;
+        color: #2f2f2f;
+        font-size: 0.36rem;
+        line-height: 0.45rem;
+        text-align: center; }
+  .ppqj .ppqjbottom {
+    height: 3.74rem; }
+    .ppqj .ppqjbottom .ppqjbox {
+      display: block;
+      width: 2.7rem;
+      height: 100%;
+      position: relative;
+      float: left;
+      background: #fff; }
+      .ppqj .ppqjbottom .ppqjbox .ppspan1 {
+        width: 2.78rem;
+        height: 0.77rem;
+        position: absolute;
+        top: 0;
+        color: #707070;
+        font-size: 0.34rem;
+        line-height: 0.77rem;
+        text-align: center; }
+      .ppqj .ppqjbottom .ppqjbox .ppspan2 {
+        width: 2.78rem;
+        height: 0.64rem;
+        position: absolute;
+        top: 0.77rem;
+        color: #9b9b9b;
+        font-size: 0.32rem;
+        line-height: 0.64rem;
+        text-align: center; }
+      .ppqj .ppqjbottom .ppqjbox img {
+        width: 2.1rem;
+        height: 2.1rem;
+        position: absolute;
+        top: 1.44rem;
+        left: 0.3rem; }
+  .ppqj .ppqjmiddle {
+    height: 9.23rem; }
+    .ppqj .ppqjmiddle .ppbigbox {
+      width: 5.33rem;
+      height: 4.63rem;
+      background: #fff;
+      border-left: 2px solid #f0f0f0;
+      border-bottom: 2px solid #f0f0f0;
+      position: relative;
+      float: left; }
+      .ppqj .ppqjmiddle .ppbigbox .pp1 {
+        display: block;
+        width: 3.46rem;
+        height: 3.46rem;
+        position: absolute;
+        top: 0.07rem;
+        left: 0.07rem;
+        /*  background:url('../img/qx3.webp') no-repeat center center;
+        background-size:contain;*/ }
+        .ppqj .ppqjmiddle .ppbigbox .pp1 img {
+          width: 3.46rem;
+          height: 3.46rem; }
+      .ppqj .ppqjmiddle .ppbigbox .pp2 {
+        display: block;
+        width: 1.65rem;
+        height: 1.65rem;
+        position: absolute;
+        top: 0.07rem;
+        right: 0.07rem;
+        /*  background:url('../img/qx1.webp') no-repeat center center;
+        background-size:contain;*/ }
+        .ppqj .ppqjmiddle .ppbigbox .pp2 img {
+          width: 1.65rem;
+          height: 1.65rem; }
+      .ppqj .ppqjmiddle .ppbigbox .pp3 {
+        display: block;
+        width: 1.65rem;
+        height: 1.65rem;
+        position: absolute;
+        bottom: 1rem;
+        right: 0.07rem;
+        /*  background:url('../img/qx2.webp') no-repeat center center;
+        background-size:contain;*/ }
+        .ppqj .ppqjmiddle .ppbigbox .pp3 img {
+          width: 1.65rem;
+          height: 1.65rem; }
+      .ppqj .ppqjmiddle .ppbigbox .pp4 {
+        display: block;
+        width: 0.8rem;
+        height: 0.8rem;
+        position: absolute;
+        bottom: 0.07rem;
+        left: 0.07rem;
+        /*  background:url('../img/qx4.webp') no-repeat center center;
+        background-size:contain;*/ }
+        .ppqj .ppqjmiddle .ppbigbox .pp4 img {
+          width: 0.8rem;
+          height: 0.8rem; }
+      .ppqj .ppqjmiddle .ppbigbox .pps1 {
+        display: block;
+        width: 4.32rem;
+        height: 0.55rem;
+        color: #2f2f2f;
+        position: absolute;
+        left: 1rem;
+        top: 3.6rem;
+        font-size: 0.32rem; }
+      .ppqj .ppqjmiddle .ppbigbox .pps2 {
+        display: block;
+        width: 4.32rem;
+        height: 0.55rem;
+        color: #9b9b9b;
+        position: absolute;
+        left: 1rem;
+        bottom: 0rem;
+        font-size: 0.32rem; }
+
+.aa {
+  height: 10rem; }
+
+.quanbu {
+  display: none;
+  width: 100%;
+  height: 1580vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #eeeeee;
+  z-index: 20;
+  animation: feichu 0.8s ease both,xianshi 0.8s ease both; }
+
+@keyframes feichu {
+  0% {
+    transform: translate3d(0, 50px, 0); }
+  100% {
+    transform: translate3d(0, 0, 0); } }
+
+@keyframes xianshi {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+  .quanbu.quanbu1 {
+    animation: chuqu 0.8s ease both,yinchang 0.8s ease both; }
+
+@keyframes chuqu {
+  0% {
+    transform: translate3d(0, 0, 0); }
+  100% {
+    transform: translate3d(0, 50px, 0); } }
+
+@keyframes yinchang {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+  .quanbu .allbox {
+    height: 1.4rem;
+    background: #fff;
+    position: relative; }
+    .quanbu .allbox .fh {
+      width: 0.48rem;
+      height: 0.52rem;
+      position: absolute;
+      top: 0.45rem;
+      left: 0.52rem;
+      fon-size: 0.48rem;
+      color: #666; }
+    .quanbu .allbox .ssbox {
+      width: 7.9rem;
+      height: 1.11rem;
+      position: absolute;
+      top: 0.16rem;
+      left: 1.43rem;
+      color: #eee;
+      border-radius: 5px;
+      background: #eee; }
+      .quanbu .allbox .ssbox .ssb {
+        width: 0.47rem;
+        height: 0.47rem;
+        position: absolute;
+        top: 0.32rem;
+        left: 0.34rem;
+        background: url("../img/ss.png") no-repeat center center;
+        background-size: cover; }
+      .quanbu .allbox .ssbox input {
+        width: 6rem;
+        height: 0.5rem;
+        line-height: 0.5rem;
+        font-size: 0.42rem;
+        color: #a0a0a0;
+        line-height: 0.5rem;
+        position: absolute;
+        top: 0.34rem;
+        left: 1.2rem;
+        border: none;
+        outline: none;
+        background-color: transparent; }
+  .quanbu .lei {
+    width: 2.56rem;
+    height: 100vh;
+    background: #eee;
+    overflow-y: scroll; }
+    .quanbu .lei li {
+      width: 2.56rem;
+      height: 1.47rem;
+      background: #fff;
+      position: relative;
+      border-bottom: 1px solid #eee; }
+      .quanbu .lei li .shu {
+        display: none;
+        width: 0.16rem;
+        height: 1.47rem;
+        background: #c10000;
+        position: absolute;
+        top: 0;
+        left: 0.06rem; }
+      .quanbu .lei li span {
+        display: block;
+        width: 2.28rem;
+        height: 1.47rem;
+        color: #434343;
+        font-size: 0.36rem;
+        line-height: 1.47rem;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        left: 0.21rem; }
+      .quanbu .lei li.active {
+        /*.libox{
+          display:block;
+        }*/ }
+        .quanbu .lei li.active .shu {
+          display: block; }
+        .quanbu .lei li.active span {
+          color: #c10000; }
+  .quanbu .contant {
+    width: 8.23rem;
+    height: 100vh;
+    position: absolute;
+    top: 1.4rem;
+    left: 2.56rem;
+    overflow-y: scroll; }
+    .quanbu .contant .libox {
+      display: none;
+      width: 8.32rem;
+      height: 100vh;
+      overflow-y: scroll;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 10; }
+      .quanbu .contant .libox .lispan {
+        width: 1.68rem;
+        height: 0.4rem;
+        position: absolute;
+        top: 0.5rem;
+        left: 0.2rem;
+        color: #777777;
+        font-size: 0.36rem;
+        line-height: 0.4rem; }
+      .quanbu .contant .libox .pic {
+        width: 8.08rem;
+        height: auto;
+        position: absolute;
+        top: 0.98rem;
+        left: 0.2rem; }
+        .quanbu .contant .libox .pic .picbox {
+          width: 2.47rem;
+          height: 3.23rem;
+          background: #fff;
+          position: relative;
+          border-right: 0.21rem solid #eeeeee;
+          float: left; }
+          .quanbu .contant .libox .pic .picbox img {
+            width: 2.07rem;
+            height: 2.24rem;
+            position: absolute;
+            top: 0.16rem;
+            left: 0.16rem; }
+          .quanbu .contant .libox .pic .picbox span {
+            display: block;
+            width: 2.47rem;
+            height: 0.7rem;
+            position: absolute;
+            top: 2.45rem;
+            left: 0;
+            font-size: 0.32rem;
+            color: #cacaca;
+            line-height: 0.7rem;
+            text-align: center; }
